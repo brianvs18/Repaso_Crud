@@ -1,9 +1,6 @@
 package com.example.Repaso_CRUD.router;
 
-import com.example.Repaso_CRUD.collections.UserDocument;
-import com.example.Repaso_CRUD.dto.MoviesDocumentDTO;
 import com.example.Repaso_CRUD.dto.UserDocumentDTO;
-import com.example.Repaso_CRUD.usecase.movies.CreateMovieUseCase;
 import com.example.Repaso_CRUD.usecase.user.CreateUserUseCase;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

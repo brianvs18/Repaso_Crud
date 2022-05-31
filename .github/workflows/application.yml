@@ -1,0 +1,19 @@
+# Siempre se debe de tener un nombre para el workflow
+# Indentacion
+name: Ejemplo YML
+
+# Un workflow es una serie de procesos
+# Debe de contener un evento, cuando se debe de ejecutar
+# Al realizar un push en la rama se ejecuta el workflow
+on:
+  push:
+    branches:
+      - master # nombre_rama
+
+# Requiere trabajos
+jobs:
+  nombre:
+    runs-on: ubuntu-18.04 # El sistema en el que se va a ejecutar
+    steps:
+      - name: Echo message
+        run: echo "Ejemplo yml"
