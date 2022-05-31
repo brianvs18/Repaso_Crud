@@ -12,7 +12,7 @@ on:
 
 # Requiere trabajos
 jobs:
-  ejemplo_workflow:
+  ejemplo_evento:
     runs-on: ubuntu-18.04 # El sistema en el que se va a ejecutar
     steps:
       - name: Echo message
